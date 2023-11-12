@@ -1,0 +1,8 @@
+size = [10527284, 1103976288];
+count = [74985];
+int_arr_time = [9999];
+ when int_arr_time<=9999.5 and size<=10527284.5  then 1;
+ when int_arr_time<=9999.5 and size>10527284.5 and count<=74985.5  then 2;
+ when int_arr_time<=9999.5 and size>10527284.5 and count>74985.5 and size<=1103976288.0  then 3;
+ when int_arr_time<=9999.5 and size>10527284.5 and count>74985.5 and size>1103976288.0  then 4;
+ when int_arr_time>9999.5  then 0;
